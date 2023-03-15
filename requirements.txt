@@ -1,0 +1,13 @@
+aiohttp
+discord.py
+asyncio
+os
+platform
+random
+sys
+yaml
+time
+colorama
+discord
+requests
+exceptions

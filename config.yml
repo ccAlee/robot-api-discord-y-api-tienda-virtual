@@ -1,0 +1,56 @@
+#########################################################
+#       _____ __                  ____        __        #
+#      / ___// /_____  ________  / __ )____  / /_       #
+#      \__ \/ __/ __ \/ ___/ _ \/ __  / __ \/ __/       #
+#     ___/ / /_/ /_/ / /  /  __/ /_/ / /_/ / /_         #
+#    /____/\__/\____/_/   \___/_____/\____/\__/         #
+#                       v1.0                            #
+#                by NovatyServices                      # 
+#                                                       #          
+#########################################################
+
+
+# If no want use slash commands (/) can use the prefix
+status_bot: ["Example", "StoreBot", "Example2"]
+
+# Go to application and create a bot to generate your token bot
+token_bot: "YOUR-TOKEN"
+
+# 8 = ADMIN (Recommended)
+permissions: "8"
+
+# Go to OAuth2 and Client Information copy the client ID
+application_id: "YOUR-APP-ID" 
+
+# Permission user ID
+permissions_ids: 
+    - 00000000000000000000
+ 
+#put your store link 
+minestore_url: "store.example.com" 
+# go to you minestore dashboard and get a API 
+minestore_api: "YOUR-MINESTORE-API"
+
+#use HEX colors without #, Only the code!
+color_embeds: "EB642A"
+
+# GIFTCARD TEMPLATE
+
+code: "0000-0000-0000-0000-0001"
+balance: "0.1"
+
+
+# BALANCE BUTTTOMS
+
+balance_1: "5.0"
+balance_2: "10.0"
+balance_3: "20.0"
+balance_4: "30.0"
+balance_5: "40.0"
+
+
+# GOAL CHANNEL 
+channel_donation: True # True/False
+donation_name: "Goal:" # Name of channel
+channel_id: "000000000000000000" # Voice ID Channel, you need create frist the channel
+update_time: "300" # Update channel in seconds!
